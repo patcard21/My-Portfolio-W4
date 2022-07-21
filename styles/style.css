@@ -1,6 +1,11 @@
 body {
   text-align: center;
 }
+
+section {
+  margin: 60px auto;
+}
+
 .container {
   text-align: center;
 }
@@ -11,4 +16,12 @@ body {
   margin-left: auto;
   margin-right: auto;
   padding: 20px;
+}
+.hola {
+    font-size: 56px;
+}
+.italics {
+  font-family: "Scotch Display", Georgia, "Times New Roman", Times, serif;
+  font-weight: medium;
+  font-style: italic;
 }
