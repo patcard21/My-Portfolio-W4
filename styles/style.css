@@ -1,6 +1,13 @@
 body {
   text-align: center;
 }
-.container  {
-    text-align: center;
+.container {
+  text-align: center;
+}
+.carousel-item {
+  text-align: center;
+}
+.carousel-img {
+  margin-left: auto;
+  margin-right: auto;
 }
