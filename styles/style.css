@@ -6,6 +6,9 @@
 body {
   text-align: center;
 }
+h2, h3, h4 {
+font-family: "Articulat CF";
+}
 
 section {
   margin: var(--default-margin);
@@ -36,7 +39,8 @@ section {
 }
 .intro,
 .profile-pic {
-  margin: var(--default-margin);
+  font-family: "Articulat CF";
+  font-weight: regular;
 }
 .col-sm {
   margin: var(--default-margin);
