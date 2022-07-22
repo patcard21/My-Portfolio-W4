@@ -1,5 +1,6 @@
 :root {
-    --default-margin: 20px auto;
+  --default-margin: 20px auto;
+  --all-sides-margin: 4px;
 }
 
 body {
@@ -7,11 +8,14 @@ body {
 }
 
 section {
-  margin: 60px auto;
+  margin: var(--default-margin);
+}
+.btn {
+    margin: var(--all-sides-margin);
 }
 
 .container {
-    margin: var(--default-margin);
+  margin: var(--default-margin);
   text-align: center;
 }
 .carousel-item {
@@ -23,14 +27,21 @@ section {
   padding: 20px;
 }
 .hola {
-    font-size: 56px;
+  font-size: 56px;
 }
 .italics {
   font-family: "Scotch Display", Georgia, "Times New Roman", Times, serif;
   font-weight: medium;
   font-style: italic;
 }
-.intro {
-    margin: var(--default-margin);
+.intro,
+.profile-pic {
+  margin: var(--default-margin);
+}
+.col-sm {
+  margin: var(--default-margin);
+}
 
+.quote  {
+    max-width: 600px;
 }
