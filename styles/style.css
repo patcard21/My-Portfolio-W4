@@ -1,3 +1,7 @@
+:root {
+    --default-margin: 20px auto;
+}
+
 body {
   text-align: center;
 }
@@ -7,6 +11,7 @@ section {
 }
 
 .container {
+    margin: var(--default-margin);
   text-align: center;
 }
 .carousel-item {
@@ -24,4 +29,8 @@ section {
   font-family: "Scotch Display", Georgia, "Times New Roman", Times, serif;
   font-weight: medium;
   font-style: italic;
+}
+.intro {
+    margin: var(--default-margin);
+
 }
