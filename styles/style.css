@@ -6,20 +6,19 @@
 body {
   text-align: center;
 }
-h2,
-h3,
-h4 {
-  font-family: "Articulat CF";
+h2, h3, h4 {
+font-family: "Articulat CF";
 }
 
 section {
   margin: var(--default-margin);
 }
 .btn {
-  margin: var(--all-sides-margin);
+    margin: var(--all-sides-margin);
 }
 
 .container {
+  margin: var(--default-margin);
   text-align: center;
 }
 .carousel-item {
@@ -47,6 +46,6 @@ section {
   margin: var(--default-margin);
 }
 
-.quote {
-  max-width: 600px;
+.quote  {
+    max-width: 600px;
 }
