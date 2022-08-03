@@ -52,6 +52,11 @@ section {
   margin: var(--default-margin);
 }
 
+.emoji {
+  transform: scale(4);
+}
+
+
 .quote {
   max-width: 600px;
 }
