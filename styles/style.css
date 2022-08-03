@@ -31,6 +31,10 @@ section {
   margin-right: auto;
   padding: 20px;
 }
+.form-label {
+  margin: var(--default-margin);
+  text-align: justify;
+}
 .hola {
   font-size: 56px;
 }
