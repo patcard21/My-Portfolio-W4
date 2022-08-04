@@ -277,7 +277,7 @@
   <label for="exampleFormControlTextarea1" class="form-label">Message</label>
   <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Write your message here..."></textarea>
 </div>
-<button class="btn btn-secondary" type="submit" id="button-addon2">Send</button>
+<button class="btn btn-secondary" type="submit" id="button-addon2" onclick="submitForm()">Send</button>
 </div>
 </div>
 <br  /> 
@@ -297,10 +297,20 @@
       <div class="row">
         <div class="col-6">© 2022 Patricia Cardona</div>
         <div class="col-6 d-flex justify-content-end">
-          Checkout my portfolio's      <a href="https://github.com/patcard21/My-Portfolio-W4/find/main" target="_blank">  GitHub repo</a>
+          Checkout my portfolio's <a href="https://github.com/patcard21/My-Portfolio-W4/find/main" target="_blank">  GitHub repo</a>
         </div>
       </div>
     </footer>
+
+    
+<!--Internal JavaScript-->
+     <script>
+      function submitForm() {
+         alert("Message sent!");
+      }
+    </script>{
+     
+
   </body>
 </html>
 
