@@ -21,7 +21,9 @@ section {
 .btn {
   margin: var(--all-sides-margin);
 }
-
+.card {
+  margin: var(--all-sides-margin);
+}
 .container {
   margin: var(--default-margin);
   text-align: center;
