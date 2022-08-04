@@ -26,6 +26,9 @@ section {
 .btn {
   margin: var(--all-sides-margin);
 }
+.btn-primary {
+  color: #409994;
+}
 .card {
   margin: var(--all-sides-margin);
 }
@@ -67,10 +70,6 @@ section {
 }
 .col-sm {
   margin: var(--default-margin);
-}
-
-.primary-cta-button {
-  color: #409994;
 }
 
 .emoji {
