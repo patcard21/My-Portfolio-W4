@@ -7,6 +7,7 @@ body {
   margin: var(--all-sides-margin);
   text-align: center;
 }
+
 h2,
 h3,
 h4 {
@@ -68,6 +69,10 @@ section {
   margin: var(--default-margin);
 }
 
+.primary-cta-button {
+  color: #409994;
+}
+
 .emoji {
   transform: scale(4);
 }
@@ -75,3 +80,4 @@ section {
 .quote {
   max-width: 600px;
 }
+@import "~bootstrap/scss/_functions";
