@@ -4,6 +4,7 @@
 }
 
 body {
+  margin: var(--all-sides-margin);
   text-align: center;
 }
 h2,
@@ -17,6 +18,9 @@ hr {
 }
 section {
   margin: var(--default-margin);
+}
+.about-paragraph {
+  text-align: center;
 }
 .btn {
   margin: var(--all-sides-margin);
@@ -38,10 +42,10 @@ section {
 }
 .divide_line {
   display: block;
-    width: 60%;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
+  width: 60%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
 .form-label {
   margin: var(--default-margin);
@@ -67,7 +71,6 @@ section {
 .emoji {
   transform: scale(4);
 }
-
 
 .quote {
   max-width: 600px;
