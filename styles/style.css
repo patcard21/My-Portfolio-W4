@@ -6,7 +6,6 @@
 
 body {
   margin: var(--all-sides-margin);
-  text-align: center;
 }
 
 h2,
@@ -25,8 +24,10 @@ footer {
 section {
   margin: var(--default-margin);
 }
-.about-paragraph {
-  text-align: center;
+.about-paragraph,
+.about-me {
+  text-align: left;
+  max-width: 60%;
 }
 .btn {
   margin: var(--all-sides-margin);
