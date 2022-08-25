@@ -63,7 +63,9 @@ section {
   margin: var(--default-margin);
   text-align: justify;
 }
-
+.my-avatar {
+  max-width: 240px;
+}
 .navbar-name {
   font-family: "Silkscreen", cursive;
   font-weight: 400;
@@ -74,8 +76,7 @@ section {
   font-size: 56px;
   font-style: italic;
 }
-.intro,
-.profile-pic {
+.intro {
   font-family: "Quicksand", sans-serif;
   font-weight: regular;
 }
@@ -92,11 +93,16 @@ section {
 }
 
 .focus {
-  color: rgb(48, 97, 99);
-  display: inline-block;
-  margin: 0 auto;
-  padding: 1px;
-  animation: flipInX; /* referring directly to the animation's @keyframe declaration */
-  animation-duration: 2s; /* don't forget to set a duration! */
-  animation-iteration-count: 1;
+  color: #7726e1;
+  text-decoration: none;
+  background-image: linear-gradient(rgb(176, 251, 188), rgb(176, 251, 188)),
+    linear-gradient(#feb2b2, #feb2b2);
+  background-size: 100% 2px, 0 2px;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 2s linear;
+}
+
+.focus:hover {
+  background-size: 0 2px, 100% 2px;
 }
