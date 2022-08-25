@@ -90,3 +90,13 @@ section {
 .quote {
   max-width: 600px;
 }
+
+.focus {
+  color: rgb(48, 97, 99);
+  display: inline-block;
+  margin: 0 auto;
+  padding: 1px;
+  animation: flipInX; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+  animation-iteration-count: 1;
+}
