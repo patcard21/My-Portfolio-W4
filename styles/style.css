@@ -15,7 +15,7 @@ h2 {
 p {
   font-family: "Quicksand", sans-serif;
   font-size: 24px;
-  font: kerning 2px; ;
+  font: kerning 2px;
 }
 hr {
   max-width: 60%;
@@ -63,12 +63,15 @@ section {
   margin: var(--default-margin);
   text-align: justify;
 }
-.hola {
-  font-size: 56px;
+
+.navbar-name {
+  font-family: "Silkscreen", cursive;
+  font-weight: 400;
 }
-.italics {
-  font-family: "Scotch Display", Georgia, "Times New Roman", Times, serif;
-  font-weight: medium;
+.hola {
+  font-family: "Cabin", sans-serif;
+  font-weight: 600;
+  font-size: 56px;
   font-style: italic;
 }
 .intro,
@@ -82,6 +85,10 @@ section {
 
 .emoji {
   transform: scale(4);
+}
+
+.focus {
+  
 }
 
 .quote {
