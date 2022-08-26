@@ -13,6 +13,7 @@ h2 {
   font-weight: 400;
 }
 p {
+  margin: var(--all-sides-margin);
   font-family: "Quicksand", sans-serif;
   font-size: 24px;
   font: kerning 2px;
@@ -37,6 +38,11 @@ section {
 .btn {
   margin: var(--all-sides-margin);
 }
+
+.button-group {
+  text-align: left;
+}
+
 .card {
   margin: var(--all-sides-margin);
 }
@@ -64,25 +70,29 @@ section {
   text-align: justify;
 }
 .lottieOne {
-  max-width: 600px;
+  max-height: 100%;
   display: inline-block;
   justify-content: center;
-  margin: var(--default-margin);
-  padding: var(--default-padding);
+  margin: var(--all-sides-margin);
 }
 .navbar-name {
   font-family: "Silkscreen", cursive;
   font-weight: 400;
 }
 .hola {
+  text-align: start;
   font-family: "Cabin", sans-serif;
   font-weight: 600;
   font-size: 56px;
   font-style: italic;
+  margin: var(--all-sides-margin);
 }
 .intro {
   font-family: "Quicksand", sans-serif;
   font-weight: regular;
+  line-height: 40px;
+  max-width: 640px;
+  text-align: start;
 }
 .col-sm {
   margin: var(--default-margin);
@@ -97,7 +107,12 @@ section {
 }
 
 .focus {
+  text-decoration: none;
+}
+
+.focus:hover {
   color: #393939;
+  background-size: 0 2px, 100% 2px;
   text-decoration: none;
   background-image: linear-gradient(rgb(176, 251, 188), #20958c),
     linear-gradient(#feb2b2, #feb2b2);
@@ -105,8 +120,5 @@ section {
   background-position: 100% 100%, 0 100%;
   background-repeat: no-repeat;
   transition: background-size 1s linear;
-}
-
-.focus:hover {
-  background-size: 0 2px, 100% 2px;
+  
 }
