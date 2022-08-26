@@ -63,9 +63,12 @@ section {
   margin: var(--default-margin);
   text-align: justify;
 }
-.my-avatar {
-  max-width: 340px;
-  text-align: middle;
+.lottieOne {
+  max-width: 600px;
+  display: inline-block;
+  justify-content: center;
+  margin: var(--default-margin);
+  padding: var(--default-padding);
 }
 .navbar-name {
   font-family: "Silkscreen", cursive;
@@ -94,7 +97,7 @@ section {
 }
 
 .focus {
-  color: #7726e1;
+  color: #393939;
   text-decoration: none;
   background-image: linear-gradient(rgb(176, 251, 188), #20958c),
     linear-gradient(#feb2b2, #feb2b2);

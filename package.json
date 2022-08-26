@@ -1,5 +1,7 @@
 {
   "dependencies": {
-    "animate.css": "^4.1.1"
+    "animate.css": "^4.1.1",
+    "lottie-web": "^5.9.6",
+    "react-lottie": "^1.2.3"
   }
 }
