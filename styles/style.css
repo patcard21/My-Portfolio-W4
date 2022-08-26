@@ -64,7 +64,8 @@ section {
   text-align: justify;
 }
 .my-avatar {
-  max-width: 240px;
+  max-width: 340px;
+  text-align: middle;
 }
 .navbar-name {
   font-family: "Silkscreen", cursive;
@@ -95,12 +96,12 @@ section {
 .focus {
   color: #7726e1;
   text-decoration: none;
-  background-image: linear-gradient(rgb(176, 251, 188), rgb(176, 251, 188)),
+  background-image: linear-gradient(rgb(176, 251, 188), #20958c),
     linear-gradient(#feb2b2, #feb2b2);
   background-size: 100% 2px, 0 2px;
   background-position: 100% 100%, 0 100%;
   background-repeat: no-repeat;
-  transition: background-size 2s linear;
+  transition: background-size 1s linear;
 }
 
 .focus:hover {
