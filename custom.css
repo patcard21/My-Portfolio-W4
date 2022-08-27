@@ -1,8 +1,7 @@
 #button-primary {
-  background-color: #4ea5a1;
-   border-color: #419792;
+  background-color: #515fd5;
+  border-color: #515fd5;
   border-radius: 16px;
-  
 }
 #button-primary:hover {
   background-color: #419792;
@@ -10,11 +9,9 @@
 }
 
 #button-secondary {
-  
   background-color: whitesmoke;
   border-color: salmon;
   border-radius: 16px;
-  
 }
 #button-secondary:hover {
   background-color: whitesmoke;
@@ -22,16 +19,16 @@
 }
 
 #a-button-primary {
-color: whitesmoke;
+  color: whitesmoke;
 }
 
 #a-button-secondary {
-color: salmon;
+  color: salmon;
 }
 
 #contact-form-btn {
-    color: whitesmoke;
-      background-color: #4ea5a1;
-   border-color: #419792;
+  color: whitesmoke;
+  background-color: #4ea5a1;
+  border-color: #419792;
   border-radius: 16px;
 }
