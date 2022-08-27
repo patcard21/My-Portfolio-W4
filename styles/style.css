@@ -75,9 +75,12 @@ section {
   justify-content: center;
   margin: var(--all-sides-margin);
 }
-.navbar-name {
+.navbar-name,
+.navbar-brand {
   font-family: "Silkscreen", cursive;
   font-weight: 400;
+  margin: var(--all-sides-margin);
+  padding: var(--default-padding);
 }
 .hola {
   text-align: start;
@@ -120,5 +123,4 @@ section {
   background-position: 100% 100%, 0 100%;
   background-repeat: no-repeat;
   transition: background-size 1s linear;
-  
 }

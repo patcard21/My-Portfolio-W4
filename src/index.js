@@ -5,7 +5,6 @@ function App() {
   return <Button variant="contained">Hello World</Button>;
 }
 
-
 var motionQuery = matchMedia("(prefers-reduced-motion)");
 function handleReduceMotionChanged() {
   if (motionQuery.matches) {

@@ -3,6 +3,7 @@
     "animate.css": "^4.1.1",
     "bootstrap": "^5.2.0",
     "lottie-web": "^5.9.6",
+    "react": "^18.2.0",
     "react-lottie": "^1.2.3",
     "terser": "^5.15.0"
   },
