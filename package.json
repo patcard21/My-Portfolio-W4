@@ -1,7 +1,31 @@
 {
   "dependencies": {
     "animate.css": "^4.1.1",
+    "bootstrap": "^5.2.0",
     "lottie-web": "^5.9.6",
-    "react-lottie": "^1.2.3"
+    "react-lottie": "^1.2.3",
+    "terser": "^5.15.0"
+  },
+  "name": "my-portfolio-w4",
+  "description": "Still a wonderfully chaotic work in progress.  **Chef's kiss**",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patcard21/My-Portfolio-W4.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/patcard21/My-Portfolio-W4/issues"
+  },
+  "homepage": "https://github.com/patcard21/My-Portfolio-W4#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.18.10",
+    "@babel/core": "^7.18.13"
   }
 }
