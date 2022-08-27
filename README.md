@@ -1,7 +1,6 @@
 # My-Portfolio-W4
 
 Still a wonderfully chaotic work in progress. 
-**Chef's kiss**
 
 ToDo List:
 
@@ -10,7 +9,7 @@ ToDo List:
     Small screens -> text aligned center with button group and animation. 
                   -> confirmed all elements align correctly.
 
-
+// 
 
 
  
